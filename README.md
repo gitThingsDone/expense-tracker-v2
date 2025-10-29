@@ -39,8 +39,7 @@ expense-tracker/
 ├── requirements.txt     # Python dependencies
 ├── .gitignore          # Git ignore rules
 ├── start.sh            # Startup script
-├── README.md           # This file
-└── POSTMAN_GUIDE.md    # Postman collection guide
+└── README.md           # This file
 ```
 
 ## Installation
@@ -203,19 +202,6 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ### Testing the API
 
 Visit `http://localhost:8000/docs` for interactive API documentation powered by Swagger UI.
-
-### Testing with Postman
-
-A complete Postman collection has been created with all API endpoints. See [POSTMAN_GUIDE.md](POSTMAN_GUIDE.md) for detailed instructions on:
-- Accessing the pre-configured collection
-- Using environment variables
-- Running tests
-- Advanced testing workflows
-
-**Quick Access:**
-- Collection includes 10 pre-configured requests
-- Environment setup for easy switching between environments
-- Examples and documentation for each endpoint
 
 ## Future Enhancements
 
